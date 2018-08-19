@@ -1,5 +1,5 @@
 angular.module 'phoneCat.phoneList', [
-    'phoneList.controllers'
+    'phoneList.components'
   ]
 
-angular.module 'phoneList.controllers', []
+angular.module 'phoneList.components', []

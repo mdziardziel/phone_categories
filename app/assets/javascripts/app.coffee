@@ -1,3 +1,4 @@
 app = angular.module 'phoneCat', [
-    'phoneCat.phoneList'
+    'phoneCat.phoneList',
+    'templates'
   ]

@@ -2,4 +2,6 @@
 #= require app
 #= require rails-ujs
 #= require turbolinks
-#= require_tree .
+#= require angular-rails-templates
+#= require_tree ./angular/components
+#= require_tree ./angular/templates

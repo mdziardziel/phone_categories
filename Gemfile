@@ -54,6 +54,8 @@ group :test do
   gem 'rspec-rails'
 end
 
+gem 'angular-rails-templates'
+
 source 'https://rails-assets.org' do
   gem 'rails-assets-angular'
 end
