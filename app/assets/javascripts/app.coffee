@@ -1,5 +1,6 @@
 app = angular.module 'phoneCat', [
     'phoneCat.phoneList',
     'templates',
-    'ngResource'
+    'ngResource',
+    'phoneCat.onlyPhone'
   ]

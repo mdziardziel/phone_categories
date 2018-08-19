@@ -13,7 +13,6 @@
  </p>
 <ul>
   <li ng-repeat="phone in $ctrl.phones | filter:$ctrl.query | orderBy:$ctrl.orderProp">
-    <span>{{phone.name}}</span>
-    <p>{{phone.snippet}}</p>
+    <phone name='{{phone.name}}' snippet='{{phone.snippet}}' age='{{phone.age}}'></phone>
   </li>
 </ul>
